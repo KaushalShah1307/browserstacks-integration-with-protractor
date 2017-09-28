@@ -16,9 +16,7 @@ exports.config = {
 			logName: 'Desktop Chrome',
 			chromeOptions: {
 				args: [
-					'start-maximized',
-                    '--start-fullscreen'
-                    //'incognito'
+          'start-maximized'
 				],
       }
     }

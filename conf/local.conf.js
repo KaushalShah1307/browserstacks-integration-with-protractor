@@ -5,8 +5,8 @@ exports.config = {
   'seleniumAddress': 'http://hub-cloud.browserstack.com/wd/hub',
 
   'capabilities': {
-    'browserstack.user': process.env.BROWSERSTACK_USERNAME || 'BROWSERSTACK_USERNAME',
-    'browserstack.key': process.env.BROWSERSTACK_ACCESS_KEY || 'BROWSERSTACK_ACCESS_KEY',
+    'browserstack.user': 'kaushalshah3',
+    'browserstack.key': 'aZuM2X6UL573W77rkbmJ',
     'build': 'protractor-browserstack',
     'name': 'local_test',
     'browserName': 'chrome',

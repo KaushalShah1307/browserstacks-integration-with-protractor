@@ -17,6 +17,11 @@
 * To run parallel tests, run `npm run parallel`
 * To run local tests, run `npm run local`
 
+## Running your tests from local browser and browserstack
+* To run a single test, run `protractor conf/single.conf.js`
+* To run parallel tests, run `protractor conf/parallel.conf.js`
+* To run local tests, run `protractor conf/local.conf.js`
+
 
 ## Notes
 * You can view your test results on the [BrowserStack automate dashboard](https://www.browserstack.com/automate)
